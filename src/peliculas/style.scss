@@ -1,0 +1,60 @@
+.carouselPeliculas {
+  display: none;
+}
+.desktopCarousel {
+  display: none;
+}
+.galleryFilm {
+  margin-top: 80px;
+  color: #e0dddd;
+  .galleryContentFilm {
+    margin: 50px;
+    text-align: left;
+    .titleP {
+      margin-left: 10px;
+      margin-top: 18px;
+      font-weight: 550;
+    }
+    p {
+      font-weight: 550;
+    }
+    .galleryContentTitle {
+      display: flex;
+      .titleGalleryFilm {
+        font-size: 19px;
+        color: #999999;
+        text-align: left;
+
+        h2 {
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 30px;
+        }
+        p {
+          margin-left: 30px;
+        }
+      }
+    }
+
+    .gallery {
+      display: flex;
+      margin-bottom: 30px;
+      overflow: hidden;
+      flex-wrap: wrap;
+      .myListFilm {
+        margin-right: 5px;
+        width: 218px;
+        height: 123px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .galleryFilm {
+    display: none;
+  }
+  .desktopCarousel {
+    display: block;
+  }
+}

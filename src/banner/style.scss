@@ -1,0 +1,108 @@
+.container {
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 300px;
+  position: relative;
+
+  .imageBackground {
+    background-image: url(https://courseit.com.ar/static/courflix/assets/black-summer-background.jpg);
+    width: 100%;
+    position: absolute;
+    height: 500px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+    padding-bottom: 300px;
+  }
+
+  .informationContainer {
+    color: white;
+    position: relative;
+    top: 125px;
+    margin: -20px 0px 200px 30px;
+    z-index: 2;
+
+    .origin {
+      display: none;
+    }
+
+    h1 {
+      text-align: left;
+      font-size: 30px;
+      width: 370px;
+      font-weight: 400;
+      line-height: 60px;
+      margin-top: 80px;
+      margin-bottom: 0px;
+    }
+    .buttonContainer {
+      display: flex;
+    }
+
+    .info {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    height: 500px;
+    .imageBackground {
+      height: 500px;
+    }
+    .informationContainer {
+      margin: -20px 0px 200px 50px;
+
+      .origin {
+        display: flex;
+        align-items: center;
+        margin-top: 70px;
+        font-size: 18px;
+        margin-left: 5px;
+
+        h3 {
+          font-weight: normal;
+          margin-right: 10px;
+          margin-bottom: 0;
+          margin-top: 0;
+        }
+
+        h2 {
+          margin-top: 0;
+          font-weight: 500;
+          margin-bottom: 0;
+        }
+      }
+
+      h1 {
+        text-align: left;
+        font-size: 80px;
+        width: 370px;
+        line-height: 60px;
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        text-align: left;
+        margin-top: 10px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+        .season {
+          font-size: 20px;
+          margin-bottom: 10px;
+          font-weight: 400;
+        }
+        .description {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
