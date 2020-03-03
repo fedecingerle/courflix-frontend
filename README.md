@@ -1,3 +1,5 @@
+Courflixreact es un proyecto hecho en React.JS el cual simula con un contenido mucho mas acotado el maquetado de netflix. La parte del backend esta hecha en node.js en el cual están guardadas las imagenes de las series/peliculas, se puede ver el código en mi proyecto courflixnode.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
